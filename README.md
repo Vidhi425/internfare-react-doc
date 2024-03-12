@@ -13,11 +13,12 @@ state: This is the current state value.<br>
 setState: This is the function you use to update the state. When you call setState, React re-renders the component with the new state value.<br>
 initialValue: This is the initial value of the state variable.<br>
 **Using State**<br>
-```<p>Count: {state}</p>```
+```<p>Count: {state}</p>```<br>
 **Updating State**<br>
-```const increment = () => {```
-  ```setState(state + 1);```
-};```
+const increment = () => {
+  setState(state + 1);
+};
+
 
 
 
