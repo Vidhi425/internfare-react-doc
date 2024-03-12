@@ -15,9 +15,9 @@ initialValue: This is the initial value of the state variable.<br>
 **Using State**<br>
 ```<p>Count: {state}</p>```<br>
 **Updating State**<br>
-const increment = () => {
+```const increment = () => {
   setState(state + 1);
-};
+};```
 
 
 
